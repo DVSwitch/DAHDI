@@ -2,8 +2,8 @@
 
 if [ -f ${1}/.version ]; then
 	cat ${1}/.version
-elif [ -d ${1}/.git ]; then
-    VERSION=`git describe --tags --dirty=M 2> /dev/null | sed -e "s/^v\([0-9]\)/\1/"`
+elif [ -d ${1}/../.git ]; then
+    VERSION="GIT Version "$(git log -1 --format="%h")
     if [ $? -ne 0 ]; then
         MODIFIED=""
         if [ "`git ls-files -m | wc -l`" != "0" ]; then
@@ -17,5 +17,6 @@ elif [ -d ${1}/.git ]; then
 else
 	# Use the directory information in the absence of any other version
 	# information
-	pwd -P
+#	pwd -P
+	echo ${1}
 fi
