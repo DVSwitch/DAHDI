@@ -1,3 +1,20 @@
+2018-01-09 Steve N4IRS <szingman@msgstor.com>
+
+	* Apply ASL patches
+	* Fix get version
+
+2016-03-01 Wendell Thompson <wthompson@digium.com>
+
+        * dahdi-linux-complete version 2.11.1+2.11.1 released.
+
+2016-02-22 Wendell Thompson <wthompson@digium.com>
+
+        * dahdi-linux-complete version 2.11.1-rc1+2.11.1-rc1 released.
+
+2015-12-22 Russ Meyerriecks <rmeyerriecks@digium.com>
+
+        * dahdi-linux-complete version 2.11.0+2.11.0 released.
+
 2015-06-15 Russ Meyerriecks <rmeyerriecks@digium.com>
 
 	* dahdi-linux-complete version 2.10.2+2.10.2 released.
